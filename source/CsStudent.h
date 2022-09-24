@@ -1,5 +1,7 @@
 //------------------------------------------------------------------------------
 // CsStudent.h : class declaration
+//
+// Author: Gaddis 9E pp.964-967
 //------------------------------------------------------------------------------
 #ifndef CSSTUDENT_H
 #define CSSTUDENT_H
@@ -15,6 +17,9 @@ constexpr int MATH_HOURS = 20;   // Math hours
 constexpr int CS_HOURS = 40;     // Computer science hours
 constexpr int GEN_ED_HOURS = 60; // General Ed hours
 
+//------------------------------------------------------------------------------
+// CsStudent
+//------------------------------------------------------------------------------
 class CsStudent : public Student {
 private:
 	int m_mathHours;    // Hours of math taken
